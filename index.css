@@ -1,0 +1,161 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width:360px) and (max-width: 600px) {
+    .midDisplayArea
+    {
+        /* background-color: rgba(0,0,0, 0.9); */
+    width: 100% !important;
+    height: auto !important;
+    z-index: 99;
+    border-radius: 30px;
+    position: absolute;
+    /* top: 2vh !important; */
+    left: auto !important;
+    }
+
+    .mt-80
+    {
+        margin-top: 60px !important;
+    }
+    
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    .midDisplayArea
+    {
+    width: 90% !important;
+    height: auto !important;
+    z-index: 99;
+    border-radius: 30px;
+    position: absolute;
+    left: 6vw !important;
+    }
+
+    .searchIcon {
+        top: 2.4em !important;
+        right: 6em !important;
+    }
+    .mt-80
+    {
+        margin-top: 60px !important;
+    }
+    
+    input[type="text"]
+    {
+        height: 50px !important;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width:1028px) {
+    .midDisplayArea
+    {
+    width: 90% !important;
+    height: 45vh !important;
+    top:0vh !important;
+    left: auto !important;
+    }
+
+    .weatherDescriptionBox
+    {
+        width: 80% !important;
+        left: 6vw !important;
+        position: absolute !important;
+    }
+
+    .searchIcon {
+        top: 2.4em !important;
+        right: 6em !important;
+    }
+    .mt-80
+    {
+        margin-top: 60px !important;
+    }
+    
+    input[type="text"]
+    {
+        height: 50px !important;
+    }
+
+
+}
+
+*
+{
+    color:white;
+    margin:0;
+    padding:0;
+}
+body{
+   
+    background-image: url(images/118267.jpg);
+    background-size: 1072px 700px;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    /* filter: brightness(120%); */
+}
+
+main{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.7));
+}
+
+.midAreaSection
+{
+    position: relative;
+}
+
+.midDisplayArea
+{
+    background-color: rgba(0,0,0, 0.9);
+    width:500px;
+    height:320px;
+z-index: 99;
+    border-radius: 30px;
+    position: absolute;
+    top: 2vh;
+    left: 24vw;
+}
+
+.weatherDescriptionBox
+    {
+        left: 0vw;
+        /* position: absolute !important; */
+    }
+
+.input_Search
+{
+  background-color : rgba(61, 61, 61, 0.7); 
+  border:none;
+  font-size:20px;
+  padding: 2px 0px 2px 15px;
+  height:2rem;
+    
+}
+.searchIcon
+{
+    top:1.8em;
+    right:4.5em;
+}
+
+.ml-10
+{
+    margin-left: 60px;    
+}
+.mt-80
+{
+    margin-top: 80px;
+}
+
+.headingHighlight
+{
+    text-shadow: 1px 1px 4px black;
+    /* color: ; */
+}

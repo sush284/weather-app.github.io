@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Check</title>
+    <link rel="stylesheet" href="index.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="app.js" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous" defer></script>
+</head>
+<body>
+
+    <main>
+        <h1 class="text-center headingHighlight mt-80 pt-5">Check weather report</h1>
+        <h3 class="text-center headingHighlight"> For any city across the world <br> at your fingertips</h3>
+        <div class="midAreaSection container">
+            <div class="midDisplayArea mx-auto">
+                <div class="contentBox ">
+                    <div class=" text-center row text-light">
+                        <div class="col mb-0" class="position-relative">
+                            <form action="">
+                            <input type="text" id="search" placeholder="Enter city name" name="city/country" class="input_Search mt-4 rounded-5 w-75">
+                             </form>
+                            <button id="searchBtn"><img src="images/search-3-24.png" class="position-absolute searchIcon" alt="" srcset=""></button>
+                        </div>
+                            
+                    </div>
+                    <div class="row weatherDescriptionBox text-light" id="weather">
+                        <!-- <div class="col ml-10 " class="position-relative">
+                            <p class="fs-4">Weather in <span id="cityName">Tokyo</span></p>
+                            <p class="fs-2 mb-1">32 &#8451;</p>
+                            <div class="d-flex flex-row bd-highlight mb-1">
+                                <img src="https://openweathermap.org/img/wn/04n@2x.png" id="weatherImage" style="width:5em;height:5em;" alt="">
+                                <p class="font-weight-light mt-4" id="weatherCondition">Scattered Clouds</p>
+                            </div>
+                                <p class="font-weight-lighter mb-0">Humidity: <span id="humidityValue">88%</span></p>
+                            <p class="font-weight-lighter">Wind Speed: <span id="windSpeedValue">8.23 km/h</span>
+                            </p>
+                       
+                            
+                            </div>
+                             -->
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
